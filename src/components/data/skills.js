@@ -21,23 +21,38 @@ export const SkillsData=[
                 icon:<i class="devicon-bulma-plain colored"></i>,
             },
             {   name:"Tailwind",
-                icon:<i class="devicon-tailwindcss-plain colored"></i>
+                icon:<i class="devicon-tailwindcss-plain colored"></i>,
+
+            },
+            {   name:"Bootstrap",
+                icon:<i class="devicon-bootstrap-plain colored"></i>,
 
             },
     
         ],
     },
 
-        {   type: "Backend",
-            list: [
+        {   type: "Backend & Databases",
+            list:[
             {name: "NodeJS",
-            icon: <i class="devicon-nodejs-plain colored"></i>
+            icon: <i class="devicon-nodejs-plain colored"></i>,
 
-            }
+            },
+            {name: "MySQL",
+            icon:<i class="devicon-mysql-plain colored"></i>,
 
-    
+            },
+
+            {name: "GraphQL",
+            icon:<i class="devicon-graphql-plain colored"></i>,
+
+            },
                 
 
+            {name: "MongDB",
+            icon:<i class="devicon-mongodb-plain colored"></i>,
+
+            },
 
 
 

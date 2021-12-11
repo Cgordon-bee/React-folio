@@ -3,17 +3,21 @@ import React from 'react';
 import './work-card.css';
 
 function WorkCard({ item }) {
-    return (
+    return ( 
+        // Work card is the Parent div
     <div className="work-card">
-        <label className="company-name">{item.company}</label>
-            <div className="work-info">
-                <label>{item.dateJoining}</label>-<label>{item.dateEnd}</label>
+              <div className='work-info'>  
+                <label className="company-name">{item.company}</label>
+                    <div className="work-dates">
+                        <label>{item.dateJoining}</label>-<label>{item.dateEnd}</label>
                 </div>
                 <div className="work-desc">
-                    <p>{item.work}</p>
-                </div>
+                <p>{item.work}</p>
 
+                </div>
             </div>
+        </div>      
+        
         
 
     

@@ -1,6 +1,8 @@
 .about{
 
     padding-bottom: 48px;
+    border-radius: 5px;
+    background-origin: padding-box;
     
 }
 

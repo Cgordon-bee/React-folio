@@ -9,7 +9,7 @@ function Header() {
     
 
         <div className="header">
-            <div className="logo">Carol Gordon the smooth coding operator</div>
+            <div className="logo">Carol Gordon "The Smooth Coding Operator"</div>
             <div className="menu">
                 <div className="web-menu">
                     <Web/>
